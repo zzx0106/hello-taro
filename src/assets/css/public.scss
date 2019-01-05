@@ -1,0 +1,13 @@
+$header-height: 86px;
+$footer-height: 100px;
+
+.footer-box {
+  height: $footer-height;
+}
+.head-box {
+  height: $header-height !important; // 强制转换高度
+}
+.scroll-box {
+  height: calc(100vh - #{$footer-height} - #{$header-height});
+  width: 100%;
+}

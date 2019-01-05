@@ -1,0 +1,12 @@
+@import '../../assets/css/public.scss';
+.fragment {
+  color: blue;
+  &:last-child {
+    color: red;
+  }
+ 
+}
+.test-h {
+  height: 200px;
+  width: 100%;
+}
